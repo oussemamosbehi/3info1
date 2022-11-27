@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./Image/shortcut.svg" type="image/svg">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<title>HomePage</title>
+
+								<!--===ICOUNSCOUT CDN===-->
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+							<!--==GOOGLE FONTS (MONTESERRAT)===-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+									<!--===SWIPER JS===-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+</head>
+
+
+<body>
+	<nav>
+		<div class="container nav_container">
+			<a href="index.html"><h4>3<sup>éme</sup> INFORMATIQUE 1</h4> </a>
+			<ul class="nav_menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="courses.html">courses</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+			<button id="close-menu-btn"><i class="uil uil-multiply"></i></i></button>
+		</div>
+	</nav>
+	<!--================== END OF NAVBAR ==================-->
+
+
+
+
+
+
+
+	<header>
+		<div class="container header__container">
+			<div class="header__left">
+				<h1>Welcome To Our Class</h1>
+				<p>We are very happy to welcome you to our high school (Mourouj 1),  
+					You are going to start a very exciting and happy phase of 
+					your school life. The other students of your class (3<sup>éme</sup>Informatique 1) are eagerly waiting 
+					to welcome you as one of their beloved classmates.</p>
+				<a href="courses.html" class="btn btn-primary">Get Started</a>
+			</div>
+
+			<div class="header__right">
+				<div class="header__right-image">
+					<img src="./Image/working-with-laptop.svg">
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--================== END OF HEADER ==================-->
+
+
+
+
+
+
+	<section class="categories">
+		<div class="container categories__container">
+			<div class="categories__left">
+				<h1>Categories</h1>
+				<p>
+					In this article, we'll explore some of the most common types of programming languages and give you some resources you can use to start learning.
+				</p>
+				<a href="#" class="btn">Learn more</a>
+			</div>
+
+
+			<div class="categories__right">
+				<article class="category">
+					<span class="category__icon"><i class="uil uil-html5"></i></span>
+					<h5>HTML</h5>
+					<p>The language for building web pages</p>
+				</article>
+
+				<article class="category">
+					<span class="category__icon"><i class="uil uil-css3-simple"></i></span>
+					<h5>CSS</h5>
+					<p>The language for styling web pages</p>
+				</article>
+
+				<article class="category">
+					<span class="category__icon"><i class="uil uil-java-script"></i></span>
+					<h5>JavaScript</h5>
+					<p>The language for programming web pages</p>
+				</article>
+			</div>
+		</div>
+	</section>
+
+	<!--================== END OF CATEGORIES ==================-->
+
+
+
+
+
+
+	<section class="courses">
+		<h2>Popular courses</h2>
+		<div class="container courses__container">
+			<article class="course">
+				<div class="course__image">
+					<img src="./Image/htmlcourse1.jpg" >
+				</div>
+				<div class="course__info">
+					<h4>Learn HTML - Full Tutorial for Beginners (2022)</h4>
+					<p>Learn HTML in this complete course for beginners. This is an all-in-one beginner tutorial to help you 
+					learn web development skills. This course teaches HTML5. 
+					</p>
+					<a href="courses.html" class="btn btn-primary">Learn More</a>
+				</div>
+			</article>
+
+
+			<article class="course">
+				<div class="course__image">
+					<img src="./Image/csscourse.jpg" >
+				</div>
+				<div class="course__info">
+					<h4>CSS Tutorial Full Course for Beginners</h4>	
+					<p>In this course, we cover CSS from the ground up. You will learn everything from basic skills, 
+						such as coloring and text, to highly advanced skills, like custom animations.
+					</p>
+					<a href="courses.html" class="btn btn-primary">Learn More</a>
+				</div>
+			</article>
+
+
+			<article class="course">
+				<div class="course__image">
+					<img src="./Image/javacourse.jpg" >
+				</div>
+				<div class="course__info">
+					<h4>Learn JavaScript - Full Course for Beginners</h4>
+					<p>JavaScript tutorial for beginners will teach you everything
+						 you need to know to get started with the JavaScript programming language.
+					</p>
+					<a href="courses.html" class="btn btn-primary">Learn More</a>
+				</div>
+			</article>
+
+
+		</div>
+	</section>
+
+	<!--================== END OF COURSES ==================-->
+
+
+
+	<section class="container students__container mySwiper">
+		<h2>Students</h2>
+		<div class="swiper-wrapper">
+			<!--====OUSSEMA MOSBEHI====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/profile.php?id=100009510797945"> <img src="./Image/oussema2.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Oussema Mosbehi</h5>
+					<small>Student</small>
+					<small>Website Admin</small>
+				</div>
+			</article>
+
+			<!--====HAMOUDA ZAIBI====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/hamouda.zaibi"> <img src="./Image/hamouda.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Hamouda Zaibi</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====ADAM GHMOUGUI====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/ena.ghmougui"> <img src="./Image/Adam Ghmougui.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Adam Ghmougui</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====MOLKA MAHFOUDHI====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/molka.mahfoudhi.12"> <img src="./Image/molka mahfoudhi.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Molka Mahfoudhi</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====ABDELKADER FATTOUCH====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/abdelkaderfattouch09"> <img src="./Image/Abdelkader Fattouch.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Abdelkader Fattouch</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====ADEM ARFEOUII====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/edem.arfaoui.56"> <img src="./Image/Adem Arfeouii.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Adem Arfeouii</h5>
+					<small>Student</small>
+				</div>
+			</article>
+
+			<!--====EYA ELAIR====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/profile.php?id=100010543446839"> <img src="./Image/Eya Elair.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Eya Elair</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Fatma Missaoui====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/fatma.missaoui.88"> <img src="./Image/Fatma Missaoui.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Fatma Missaoui</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Haboub Ouseleti====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/haboub.ouesleti"> <img src="./Image/Haboub Ouseleti.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Haboub Ouseleti</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Jalel Yasser====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/jalel.yasser.9"> <img src="./Image/Jalel Yasser.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Jalel Yasser</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Malek Ben Souilah====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/malek.bensouilah"> <img src="./Image/Malek Ben Souilah.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Malek Ben Souilah</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Molka Kr====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/molka.kr.90"> <img src="./Image/Molka Kr.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Molka Kr</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Nesrine Mraihi====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/nesrine.mraihi.14"> <img src="./Image/Nesrine Mraihi.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Nesrine Mraihi</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Raefet Kr====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/profile.php?id=100006443101968"> <img src="./Image/Raefet Kr.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Raefet Kr</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Rahmouni Salim====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/rahmouni.salim.1"> <img src="./Image/Rahmouni Salim.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Rahmouni Salim</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Rania Torkhani====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/rania.torkhani.56"> <img src="./Image/Rania Torkhani.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Rania Torkhani</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Rim Driaa====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/rayoudriaa.driaa"> <img src="./Image/Rim Driaa.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Rim Driaa</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Sar Ah====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/profile.php?id=100053014694344"> <img src="./Image/Sar Ah.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Sar Ah</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Zeineb K'h====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/zeineb.khammassi.9"> <img src="./Image/Zeineb K'h.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Zeineb K'h</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Seif Ghodhbani====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/profile.php?id=100011224359281"> <img src="./Image/Seif Ghodhbani.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Seif Ghodhbani</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Souha Douaidia====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/souha.douaidia.37"> <img src="./Image/Souha Douaidia.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Souha Douaidia</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Souhayb Essid====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/souhayb.essid"> <img src="./Image/Souhayb Essid.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Souhayb Essid</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Taha H'f====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/taha.amine.1806253"> <img src="./Image/Taha H'f.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Taha H'f</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Yassine Zarai====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/profile.php?id=100085399484547"> <img src="./Image/user.png"></a>
+				</div>
+				<div class="student__info">
+					<h5>Yassine Zarai</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Yassmine Hammi====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/lexi.florel"> <img src="./Image/Yassmine Hammi.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Yassmine Hammi</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====Youssef Kadi====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/youssef.kadi.503"> <img src="./Image/Youssef Kadi.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Youssef Kadi</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====eya chihi====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/profile.php?id=100075440855039"> <img src="./Image/eya chihi.jpg"></a>
+				</div>
+				<div class="student__info">
+					<h5>Eya chihi</h5>
+					<small>Student</small>
+				</div>
+			</article>
+			<!--====eya ebn taleb====-->
+			<article class="student swiper-slide">
+				<div class="avatar">
+					<a href="https://www.facebook.com/profile.php?id=100005090836235"> <img src="./Image/user.png"></a>
+				</div>
+				<div class="student__info">
+					<h5>Eya Ben Taleb</h5>
+					<small>Student</small>
+				</div>
+			</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+		<div class="swiper-pagination"></div>
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+		
+	</section>
+
+
+
+	<!--================== END OF STUDENTS ==================-->
+
+	
+
+	<footer>
+		<div class="container footer__container">
+			<div class="footer__1">
+				<a href="index.html" class="footer__logo"><h4>3<sup>éme</sup> INFORMATIQUE 1</h4></a>
+				<p>
+
+				</p>
+			</div>
+
+			<div class="footer__2">
+				<h4>Permalinks</h4>
+				<ul class="permalinks">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="courses.html">Courses</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+
+
+			<div class="footer__3">
+				<h4>Primacy</h4>
+				<ul class="privacy">
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Terms and conditions</a></li>
+					<li><a href="#">Refund Policy</a></li>
+				</ul>
+			</div>
+
+
+			<div class="footer__4">
+				<h4>Contact Us</h4>
+				<div>
+					<p>+216 46 317 098</p>
+					<p>weldbenladen@gmail.com</p>
+				</div>
+
+				<ul class="footer__socials">
+					<li>
+						<a href="#"><i class="uil uil-facebook-f"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="uil uil-instagram-alt"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="uil uil-twitter"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="uil uil-linkedin-alt"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+			<div class="footer__copyright">
+				<small>Copyright &copy; Oussema Mosbehi</small>
+			</div>
+	</footer>
+
+	<!--================== END OF FOOTER ==================-->
+
+
+
+
+
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="./main.js"></script>
+
+	<script>
+		 var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        centeredSlides: false,
+        slidesPerGroupSkip: 1,
+        grabCursor: true,
+        keyboard: {
+          enabled: true,
+        },
+        breakpoints: {
+          769: {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+          },
+        },
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+	</script>
+
+
+</body>
+</html>
